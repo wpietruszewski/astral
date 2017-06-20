@@ -14,7 +14,9 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-"""The :mod:`astral` module provides the means to calculate dawn, sunrise,
+"""Calculations for the position of the sun and the moon.
+
+The :mod:`astral` module provides the means to calculate dawn, sunrise,
 solar noon, sunset, dusk and rahukaalam times, plus solar azimuth and
 elevation, for specific locations or at a specific latitude/longitude. It can
 also calculate the moon phase for a specific date.
@@ -1228,7 +1230,7 @@ class Location(object):
 
 class LocationGroup(object):
     """Groups a set of timezones by the timezone group"""
-    
+
     def __init__(self, name):
         self.name = name
         self._locations = {}
