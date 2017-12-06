@@ -14,9 +14,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-"""Calculations for the position of the sun and the moon.
-
-The :mod:`astral` module provides the means to calculate dawn, sunrise,
+"""The :mod:`astral` module provides the means to calculate dawn, sunrise,
 solar noon, sunset, dusk and rahukaalam times, plus solar azimuth and
 elevation, for specific locations or at a specific latitude/longitude. It can
 also calculate the moon phase for a specific date.
@@ -109,7 +107,7 @@ __all__ = ['Astral', 'Location',
            'AstralGeocoder', 'GoogleGeocoder',
            'AstralError']
 
-__version__ = "1.4"
+__version__ = "1.4.1"
 __author__ = "Simon Kennedy <sffjunkie+code@gmail.com>"
 
 SUN_RISING = 1
